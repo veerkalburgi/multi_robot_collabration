@@ -1,0 +1,8 @@
+<!-- xml -->
+<launch>
+
+  <include file="$(find multi_robot_collabration)/launch/robot1_bringup.launch"/>
+  <include file="$(find multi_robot_collabration)/launch/robot2_bringup.launch"/>
+  <include file="$(find multi_robot_collabration)/launch/robot3_bringup.launch"/>
+  
+</launch>
